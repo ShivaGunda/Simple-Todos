@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.buttons {
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .para {
+    font-size: 14px;
+  }
+
+  .buttons {
+    font-size: 12px;
+    height: 25px;
+    width: 70px;
+  }
+}
